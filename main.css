@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    text-align: center;
+}
+
+/*Trigger Button*/
+.login-trigger {
+    font-weight: bold;
+    color: #fff;
+    background: #F2510C;
+    padding: 15px 30px;
+    border-radius: 30px;
+    position: relative;
+    top: 50%;
+}
+
+/*Modal*/
+h4 {
+
+    color: black;
+}
+
+.close {
+    color: black;
+    transform: scale(1.2)
+}
+
+.modal-content {
+    font-weight: bold;
+}
+
+.form-control {
+    margin: 1em 0;
+}
+
+form {
+    margin-left: 30px;
+
+}
+
+.form-control:hover,
+.form-control:focus {
+    box-shadow: none;
+    border-color: black;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #eee;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.card {
+    border-color: white;
+    border-width: 3px;
+}
+
+.out,
+.out2,
+.card-text {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.count {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-header {}
+
+.card-body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardtext {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.out,
+.out2 {
+    margin-left: 5px;
+
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-color: #F2510C;
+}
+
+.btn-outline-dark:hover {
+
+    background: #F2510C;
+}
+
+.btn-outline-dark {
+    color: #F2510C;
+    background-color: transparent;
+    background-image: none;
+    border-color: #F2510C;
+}
